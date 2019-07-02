@@ -22,10 +22,10 @@
                 } else {
                 <a href="products">products</a> 
                 }
-                #if(title == "development") {
-                <a class="active" href="development">development</a> 
+                #if(title == "projects") {
+                <a class="active" href="development">projects</a> 
                 } else {
-                <a href="development">development</a> 
+                <a href="development">projects</a> 
                 }
                 #if(title == "contact") {
                 <a class="active" href="contact">contact</i></a>

@@ -1,9 +1,6 @@
 #set("body") {
     <h1>contact</h1>
-    <p>
-        Any troubles with a product, please contact us : 
-        <a href="mailto:benovapps.support@icloud.com">support</a>
-    </p>
-    <p class="note">Please do not contact support for solution. Just try harder, that's the spirit of the game!</p>
+    <p>You can contact support for help here : <a href="mailto:benovapps.support@icloud.com">support</a></p>
+    <p class="note">Please, do not contact support for game tip or game solution ... just try harder, that's the spirit!</p>
     }
 #embed("base")

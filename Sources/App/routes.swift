@@ -3,7 +3,6 @@ import Vapor
 /// Register your application's routes here.
 public func routes(_ router: Router) throws {
     
-    
     router.get { req in
         return try req.view().render("home.leaf", ["title": "home"])
     }
@@ -26,7 +25,11 @@ public func routes(_ router: Router) throws {
 
     router.get("support") { req in
         return try req.view().render("contact.leaf", ["title": "contact"])
-    }    
+    }
+    
+    router.get("motissimo-privacy") { req in
+        return try req.view().render("privacy.leaf", ["title": "privacy"])
+    }
 
 //    // Example of configuring a controller
 //    let todoController = TodoController()

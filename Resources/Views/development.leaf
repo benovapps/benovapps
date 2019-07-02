@@ -1,17 +1,16 @@
 #set("body") {
-    <h1>realization:</h1>
+    <h1>projects</h1>
     <ul>
-        <li>Ticketing and Document mac OS application</li>
-        <li>Remote Setting Tools for fine tuning application</li>
-        <li>Games Level tools</li>
-        <li>IFTTT application</li>
+        <li>Human Ressource Doc & Ticket management system</li>
+        <li>Requirement Management Tool</li>
+        <li>Remote Setting tool for application fine tuning</li>
+        <li>More to come ...</li>
     </ul>
     <h1>expertise:</h1>
     <ul>
+        <li>iOS & macOs applications</li>
         <li>Swift, Objective C</li>
-        <li>applications iOS</li>
-        <li>applications macOS</li>
-        <li>vapor server application</li>
+        <li>Vapor server</li>
     </ul>
     }
 #embed("base")

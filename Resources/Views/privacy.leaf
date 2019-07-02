@@ -1,0 +1,9 @@
+#set("body") {
+    <h1>Privacy policy</h1>
+    <p>No personal data is collected when you play Motissimo.</p>
+    <h1>Politique de confidentialité</h1>
+    <p>Aucune information personnelle n'est collectée quand vous jouez à Motissomo.</p>
+    <h1>Datenschutz-Bestimmungen</h1>
+    <p>Beim Spielen von Motissomo werden keine persönlichen Daten gesammelt.</p>
+}
+#embed("base")

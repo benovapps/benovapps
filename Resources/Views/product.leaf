@@ -1,27 +1,30 @@
 #set("body") {
     <h1>Motissomo</h1>
-    <p>Fond of word games? You are going to love playing Motissimo!</p>
-    <p>Motissimo is a an word game addicting and challenging game with tons of words to find.</p>
+    <p>Fond of word games? You are going to love playing Motissimo!
+    <br>Motissimo is an addicting and challenging game with tons of words to find.</p>
+    <p>- Available soon on App Store -</p>
     
     <div class="row">
+        <!-- 
+         <video width="240" height="400" controls>
+         -->
+        <video class="product" controls>
+            <source src="video/motissimo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+        <!-- -->
         <div class="column">
             <img class="product" src="images/motissimo1.jpg">
         </div>
-        <!--
-        <video width="220" height="400" autoplay>
-            <source src="video/motissimoH.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        -->
     </div>
     
     <h2>The rules are simple:</h2>
     <ul>
-        <li>Find a word for every row of a grid.</li>
+        <li>Find a word for every row of the grid.</li>
         <li>A hint per word to find is displayed.</li>
         <li>Swipe the rows and the columns to form the words on the rows.</li>
         <li>Find all the words in a minimal number of moves to get the best bonus.</li>
-        <li>Progress Indications displayed in a hint will help you, giving the percentage of letters of the matching word in the row closest to that word, as well as the percentage of letters correctly placed in the word.</li>
+        <li>Progress indications displayed in the hints will help you. They give you the percentage of letters of the word in the row closest to that word, as well as the percentage of letters correctly placed in the word.</li>
         <li>At any moment, you can touch a hint to know which row is the closest to the word to find.</li>
     </ul>
     <h2>Features:</h2>
@@ -33,6 +36,8 @@
         <li>Different background modes, including a 3D dynamic mode.</li>
         <li>AD FREE.</li>
     </ul>
+
+    <a href="motissimo-privacy">Privacy policy<a>
 }
 
 #embed("base")
