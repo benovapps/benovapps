@@ -1,0 +1,8 @@
+#set("body") {
+    <h1>products</h1>
+    <h2>Motissomo</h2>
+    <p>Word game available for iOS devices : <a href="products">more info</a></p>
+    <h1>development</h1>
+    <p>Development of iOS and macOS applications, vapor server : <a href="development">more info</a></p>
+}
+#embed("base")

@@ -1,0 +1,49 @@
+</body><html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/app.css">
+        <!-- Load an icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="/scripts/app.js"></script>
+        <title>#(title)</title>
+        </head>
+    <body>
+        <header id="header">
+            <img id="logo" src="images/benovapps.svg">
+        </header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                #if(title == "home") {
+                <a class="active" href="home"><i class="fa fa-home"></i></a> 
+                } else {
+                <a href="home"><i class="fa fa-home"></i></a> 
+                }
+                #if(title == "products") {
+                <a class="active" href="products">products</a> 
+                } else {
+                <a href="products">products</a> 
+                }
+                #if(title == "development") {
+                <a class="active" href="development">development</a> 
+                } else {
+                <a href="development">development</a> 
+                }
+                #if(title == "contact") {
+                <a class="active" href="contact">contact</i></a>
+                } else {
+                <a href="contact">contact</i></a>
+                }
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+        <section>
+            <!-- Page content -->
+            <div class="main">
+                #get(body)
+            </div>
+        </section>
+        <footer  id="footer">
+            <p>benovapps.com © 2019</p>
+        </footer>
+    </body>
+</html>
+

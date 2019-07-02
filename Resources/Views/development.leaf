@@ -1,0 +1,17 @@
+#set("body") {
+    <h1>realization:</h1>
+    <ul>
+        <li>Ticketing and Document mac OS application</li>
+        <li>Remote Setting Tools for fine tuning application</li>
+        <li>Games Level tools</li>
+        <li>IFTTT application</li>
+    </ul>
+    <h1>expertise:</h1>
+    <ul>
+        <li>Swift, Objective C</li>
+        <li>applications iOS</li>
+        <li>applications macOS</li>
+        <li>vapor server application</li>
+    </ul>
+    }
+#embed("base")
